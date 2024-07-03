@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <section class="contact">
+        <div class="content">
+            <h2>Sign Up</h2>
+            <p>Please fill in this form to create an account.</p>
+        </div>
+    
+        <div class="container">
+            <div class="contactForm">
+                <form action="sign_up.php" method="post">
+                    <div class="inputBox">
+                        <input type="text" name="fullname" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="email" name="email" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="password" name="password" required="required">
+                        <span>Password</span>
+                    </div>
+                    <div class="inputBox">
+                        <button type="submit">Sign Up</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section> 
+</body>
+</html>

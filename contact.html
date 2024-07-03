@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css"> <!-- Corrected the link to the CSS file -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css">
+</head>
+<body>
+    <section class="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, aliquam ullam. Error accusamus a sunt quos quas fugiat amet exercitationem autem quis iusto.</p>
+        </div>
+    
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <h3> <i style='font-size:24px' class='fas'>&#xf3c5;</i> Address</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. ,<br> facere tenetur, quasi natus doloribus illum eveniet, <br>] ipsum voluptatibus quisquam.</p>
+                </div>
+                <div class="box">
+                    <h3> <i style="font-size:24px" class="fa">&#xf095;</i>
+                         Phone</h3>
+                    <p>XXXXXXXX</p>
+                </div>
+                <div class="box">
+                    <h3>  <i style="font-size:24px" class="fa">&#xf0e0;</i> Email </h3>
+                    <p>abc@gmail.com</p>
+                </div>
+            </div>
+            <div class="contactForm" action="contact.php" method="post">
+                <form>
+                    <h2>Your Feedback</h2>
+                    <div class="inputBox">
+                        <input type="text" name="Full Name" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="Email" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea name="Message" required="required"></textarea> <!-- Corrected the textarea -->
+                        <span>Message</span>
+                    </div>
+                    <div class="inputBox">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section> 
+</body>
+</html>
